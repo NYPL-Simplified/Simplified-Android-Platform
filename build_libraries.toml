@@ -167,7 +167,6 @@ kotlin_reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref =
 kotlin_stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk7", version.ref = "kotlin" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
 leak_canary = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leak_canary" }
-logback_android = { module = "com.github.tony19:logback-android", version.ref = "logback_android" }
 logback_android_classic = { module = "com.github.tony19:logback-android-classic", version.ref = "logback_android_classic" }
 logback_android_core = { module = "com.github.tony19:logback-android-core", version.ref = "logback_android_core" }
 logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "logback_classic" }
