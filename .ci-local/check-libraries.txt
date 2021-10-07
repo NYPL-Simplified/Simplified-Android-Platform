@@ -1,0 +1,14 @@
+#
+# Non-empty lines that do not start with '#' are treated as colon-separated
+# group and artifacts, eg. "one.irradia.mime:one.irradia.mime.api"
+#
+
+com.fasterxml.jackson.core:jackson-core
+com.fasterxml.jackson.module:jackson-module-kotlin
+one.irradia.fieldrush:one.irradia.fieldrush.api
+one.irradia.fieldrush:one.irradia.fieldrush.vanilla
+one.irradia.mime:one.irradia.mime.api
+one.irradia.opds2_0:one.irradia.opds2_0.api
+org.librarysimplified.audiobook:org.librarysimplified.audiobook.api
+org.librarysimplified.http:org.librarysimplified.http.api
+org.librarysimplified.r2:org.librarysimplified.r2.api
