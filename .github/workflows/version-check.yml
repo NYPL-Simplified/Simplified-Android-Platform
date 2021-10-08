@@ -16,5 +16,5 @@ jobs:
           java-version: 11
       - name: Build
         env:
-          SLACK_WEBHOOK_URL:  ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK:  ${{ secrets.SLACK_WEBHOOK }}
         run: .ci/ci-check-versions-slack.sh
