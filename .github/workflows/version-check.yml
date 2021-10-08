@@ -1,6 +1,9 @@
 name: Version Check
 
-on: workflow_dispatch
+on:
+  schedule:
+    # Run at midnight on any Sunday
+    - cron:  '0 0 * * SUN'
 
 jobs:
   build:
