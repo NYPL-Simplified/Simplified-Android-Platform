@@ -3,35 +3,35 @@
 # group and artifacts, eg. "one.irradia.mime:one.irradia.mime.api"
 #
 
-androidx.activity:activity
-androidx.annotation:annotation
-androidx.appcompat:appcompat
-androidx.cardview:cardview
-androidx.constraintlayout:constraintlayout
-androidx.core:core
-androidx.core:core-ktx
-androidx.fragment:fragment-ktx
-androidx.fragment:fragment-testing
-androidx.legacy:legacy-preference-v14
-androidx.legacy:legacy-support-v4
-androidx.lifecycle:lifecycle-extensions
-androidx.lifecycle:lifecycle-viewmodel
-androidx.multidex:multidex
-androidx.navigation:navigation-fragment-ktx
-androidx.navigation:navigation-ui-ktx
-androidx.paging:paging-runtime-ktx
-androidx.preference:preference-ktx
-androidx.recyclerview:recyclerview
-androidx.test.espresso:espresso-core
-androidx.test.espresso:espresso-core
-androidx.test.ext:junit
-androidx.test.ext:junit
-androidx.test:orchestrator
-androidx.test:rules
-androidx.test:runner
-androidx.viewpager2:viewpager2
-androidx.webkit:webkit
-ch.qos.logback:logback-classic
+# androidx.activity:activity
+# androidx.annotation:annotation
+# androidx.appcompat:appcompat
+# androidx.cardview:cardview
+# androidx.constraintlayout:constraintlayout
+# androidx.core:core
+# androidx.core:core-ktx
+# androidx.fragment:fragment-ktx
+# androidx.fragment:fragment-testing
+# androidx.legacy:legacy-preference-v14
+# androidx.legacy:legacy-support-v4
+# androidx.lifecycle:lifecycle-extensions
+# androidx.lifecycle:lifecycle-viewmodel
+# androidx.multidex:multidex
+# androidx.navigation:navigation-fragment-ktx
+# androidx.navigation:navigation-ui-ktx
+# androidx.paging:paging-runtime-ktx
+# androidx.preference:preference-ktx
+# androidx.recyclerview:recyclerview
+# androidx.test.espresso:espresso-core
+# androidx.test.espresso:espresso-core
+# androidx.test.ext:junit
+# androidx.test.ext:junit
+# androidx.test:orchestrator
+# androidx.test:rules
+# androidx.test:runner
+# androidx.viewpager2:viewpager2
+# androidx.webkit:webkit
+# ch.qos.logback:logback-classic
 com.fasterxml.jackson.core:jackson-core
 com.fasterxml.jackson.core:jackson-databind
 com.fasterxml.jackson.module:jackson-module-kotlin
@@ -45,13 +45,13 @@ com.github.readium:r2-shared-kotlin
 com.github.readium:r2-streamer-kotlin
 com.github.stephenc.jcip:jcip-annotations
 com.github.tony19:logback-android
-com.google.android.exoplayer:exoplayer
+# com.google.android.exoplayer:exoplayer
 com.google.android.material:material
 com.google.auto.value:auto-value
 com.google.auto.value:auto-value-annotations
 com.google.firebase:firebase-analytics
 com.google.firebase:firebase-crashlytics
-com.google.guava:guava
+# com.google.guava:guava
 com.io7m.jcip:jcip-annotations
 com.io7m.jfunctional:io7m-jfunctional-core
 com.io7m.jnull:io7m-jnull-core
@@ -77,7 +77,7 @@ io.reactivex:rxjava
 javax.annotation:javax.annotation-api
 joda-time:joda-time
 junit:junit
-net.sf.kxml:kxml2
+# net.sf.kxml:kxml2
 one.irradia.fieldrush:one.irradia.fieldrush.api
 one.irradia.fieldrush:one.irradia.fieldrush.vanilla
 one.irradia.mime:one.irradia.mime.api
@@ -90,10 +90,10 @@ one.irradia.opds2_0:one.irradia.opds2_0.parser.vanilla
 org.bouncycastle:bcpg-jdk15on
 org.bouncycastle:bcpkix-jdk15on
 org.bouncycastle:bctls-jdk15on
-org.jetbrains.kotlin:kotlin-reflect
-org.jetbrains.kotlin:kotlin-stdlib-jdk7
-org.jetbrains.kotlinx:kotlinx-coroutines-android
-org.jetbrains.kotlinx:kotlinx-coroutines-core
+# org.jetbrains.kotlin:kotlin-reflect
+# org.jetbrains.kotlin:kotlin-stdlib-jdk7
+# org.jetbrains.kotlinx:kotlinx-coroutines-android
+# org.jetbrains.kotlinx:kotlinx-coroutines-core
 org.json:json
 org.junit.jupiter:junit-jupiter-api
 org.junit.jupiter:junit-jupiter-engine
@@ -132,5 +132,5 @@ org.osgi:org.osgi.annotation.bundle
 org.osgi:org.osgi.annotation.versioning
 org.quicktheories:quicktheories
 org.robolectric:robolectric
-org.slf4j:slf4j-api
-xmlpull:xmlpull
+# org.slf4j:slf4j-api
+# xmlpull:xmlpull
