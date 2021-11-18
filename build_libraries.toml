@@ -189,6 +189,7 @@ nypl_audiobook_manifest_parser_api = { module = "org.librarysimplified.audiobook
 nypl_audiobook_manifest_parser_webpub = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.manifest_parser.webpub", version.ref = "nypl_audiobook" }
 nypl_audiobook_open_access = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.open_access", version.ref = "nypl_audiobook" }
 nypl_audiobook_parser_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.parser.api", version.ref = "nypl_audiobook" }
+nypl_audiobook_json_web_token = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.json_web_token", version.ref = "nypl_audiobook" }
 nypl_audiobook_rbdigital = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.rbdigital", version.ref = "nypl_audiobook" }
 nypl_audiobook_views = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.views", version.ref = "nypl_audiobook" }
 nypl_drm_adobe = { module = "org.librarysimplified.drm.adobe:org.librarysimplified.drm.adobe.provider", version.ref = "nypl_drm_adobe" }
