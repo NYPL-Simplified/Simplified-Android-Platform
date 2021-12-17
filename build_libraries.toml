@@ -6,9 +6,9 @@ androidx_cardview = "1.0.0"
 androidx_constraint_layout = "2.1.1"
 androidx_core = "1.1.0"
 androidx_core_ktx = "1.3.2"
-androidx_databinding = "7.0.2" # Used for Robolectric workaround, should match AGP version
+androidx_databinding = "7.0.2" # Used for fixing databinding in Robolectric, should match AGP version
 androidx_fragment = "1.3.2"
-androidx_fragment_testing = "1.1.0"
+androidx_fragment_testing = "1.3.6" # 1.4.0+ requires minCompileSDK >=31
 androidx_legacy_preference_v14 = "1.0.0"
 androidx_legacy_support_v4 = "1.0.0"
 androidx_lifecycle = "2.2.0"
@@ -18,7 +18,7 @@ androidx_navigation = "2.3.4"
 androidx_paging = "2.1.0"
 androidx_preference = "1.1.1"
 androidx_recycler_view = "1.1.0"
-androidx_test_espresso_core = "3.4.0"
+androidx_test_espresso_core = "3.5.0-alpha03" # Using alpha version to bypass this issue https://github.com/robolectric/robolectric/issues/6593#issuecomment-974858115
 androidx_test_core_ktx = "1.4.0"
 androidx_test_ext_junit_ktx = "1.1.3"
 androidx_test_orchestrator = "1.4.0"
@@ -63,6 +63,7 @@ mockito = "2.27.0"
 mockito_android = "2.22.0"
 mockito_core = "3.4.4"
 mockito_kotlin = "4.0.0"
+mockk = "1.12.0" # 1.12.1 seems to re-introduce this issue https://github.com/mockk/mockk/issues/754
 mockwebserver = "4.9.0"
 moshi = "1.12.0"
 nano_httpd = "c3b149e04df161c85daeef02899128e727148b02"
@@ -178,6 +179,7 @@ logback_classic = { module = "ch.qos.logback:logback-classic", version.ref = "lo
 mockito = { module = "org.mockito:mockito-core", version.ref = "mockito" }
 mockito_android = { module = "org.mockito:mockito-android", version.ref = "mockito_android" }
 mockito_kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito_kotlin" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
 mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.ref = "mockwebserver" }
 moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
