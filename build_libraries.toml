@@ -12,8 +12,9 @@ androidx_fragment = "1.3.2"
 androidx_fragment_testing = "1.3.6" # 1.4.0+ requires minCompileSDK >=31
 androidx_legacy_preference_v14 = "1.0.0"
 androidx_legacy_support_v4 = "1.0.0"
-androidx_lifecycle = "2.2.0"
+androidx_lifecycle_ext = "2.2.0"
 androidx_lifecycle_viewmodel = "2.3.0"
+androidx_lifecycle_java8 = "2.2.0"
 androidx_multidex = "2.0.1"
 androidx_navigation = "2.3.4"
 androidx_paging = "2.1.0"
@@ -116,8 +117,9 @@ androidx_fragment = { module = "androidx.fragment:fragment-ktx", version.ref = "
 androidx_fragment_testing = { module = "androidx.fragment:fragment-testing", version.ref = "androidx_fragment_testing" }
 androidx_legacy_preference_v14 = { module = "androidx.legacy:legacy-preference-v14", version.ref = "androidx_legacy_preference_v14" }
 androidx_legacy_support_v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "androidx_legacy_support_v4" }
-androidx_lifecycle = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "androidx_lifecycle" }
+androidx_lifecycle_ext = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "androidx_lifecycle_ext" }
 androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx_lifecycle_viewmodel" }
+androidx_lifecycle_java8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx_lifecycle_java8" }
 androidx_multidex = { module = "androidx.multidex:multidex", version.ref = "androidx_multidex" }
 androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx_navigation" }
 androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx_navigation" }
