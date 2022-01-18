@@ -14,6 +14,7 @@ androidx_legacy_preference_v14 = "1.0.0"
 androidx_legacy_support_v4 = "1.0.0"
 androidx_lifecycle_ext = "2.2.0"
 androidx_lifecycle_viewmodel = "2.4.0"
+androidx_lifecycle_viewmodel_ktx = "2.4.0"
 androidx_lifecycle_java8 = "2.4.0"
 androidx_multidex = "2.0.1"
 androidx_navigation = "2.3.5"
@@ -119,6 +120,7 @@ androidx_legacy_preference_v14 = { module = "androidx.legacy:legacy-preference-v
 androidx_legacy_support_v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "androidx_legacy_support_v4" }
 androidx_lifecycle_ext = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "androidx_lifecycle_ext" }
 androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx_lifecycle_viewmodel" }
+androidx_lifecycle_viewmodel_ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx_lifecycle_viewmodel_ktx" }
 androidx_lifecycle_java8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx_lifecycle_java8" }
 androidx_multidex = { module = "androidx.multidex:multidex", version.ref = "androidx_multidex" }
 androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx_navigation" }
