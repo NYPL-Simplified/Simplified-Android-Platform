@@ -214,6 +214,7 @@ nypl_drm_core = { module = "org.librarysimplified.drm:org.librarysimplified.drm.
 nypl_findaway = { module = "org.librarysimplified.audiobook.audioengine:org.librarysimplified.audiobook.audioengine.core", version.ref = "nypl_findaway" }
 nypl_http_api = { module = "org.librarysimplified.http:org.librarysimplified.http.api", version.ref = "nypl_http" }
 nypl_http_bearer_token = { module = "org.librarysimplified.http:org.librarysimplified.http.bearer_token", version.ref = "nypl_http" }
+nypl_http_oauth_client_credentials = { module = "org.librarysimplified.http:org.librarysimplified.http.oauth_client_credentials", version.ref = "nypl_http" }
 nypl_http_downloads = { module = "org.librarysimplified.http:org.librarysimplified.http.downloads", version.ref = "nypl_http" }
 nypl_http_uri = { module = "org.librarysimplified.http:org.librarysimplified.http.uri_builder", version.ref = "nypl_http" }
 nypl_http_vanilla = { module = "org.librarysimplified.http:org.librarysimplified.http.vanilla", version.ref = "nypl_http" }
