@@ -16,6 +16,7 @@ androidx_lifecycle_ext = "2.2.0"
 androidx_lifecycle_viewmodel = "2.4.0"
 androidx_lifecycle_viewmodel_ktx = "2.4.0"
 androidx_lifecycle_java8 = "2.4.0"
+androidx_media2 = "1.2.1"
 androidx_multidex = "2.0.1"
 androidx_navigation = "2.3.5"
 androidx_paging = "3.1.0"
@@ -58,6 +59,9 @@ junit5_mannodermaus = "1.3.0"
 kluent = "1.68"
 kotlin = "1.5.30"
 kotlin_coroutines = "1.3.7"
+kotlin_coroutines_rx2 = "1.5.2"
+kotlin_coroutines_guava = "1.5.2"
+kotlin_coroutines_test = "1.5.2"
 kxml = "2.3.0"
 leak_canary = "2.1"
 logback_android = "2.0.0"
@@ -100,6 +104,7 @@ rxandroid = "1.2.1"
 rxandroid2 = "2.1.1"
 rxjava = "1.3.8"
 rxjava2 = "2.2.21"
+rxjava2_interop = "0.13.7"
 rxjava2_extensions = "0.20.10"
 slf4j = "1.7.32"
 xmlpull = "1.1.3.1"
@@ -122,6 +127,7 @@ androidx_lifecycle_ext = { module = "androidx.lifecycle:lifecycle-extensions", v
 androidx_lifecycle_viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel", version.ref = "androidx_lifecycle_viewmodel" }
 androidx_lifecycle_viewmodel_ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx_lifecycle_viewmodel_ktx" }
 androidx_lifecycle_java8 = { module = "androidx.lifecycle:lifecycle-common-java8", version.ref = "androidx_lifecycle_java8" }
+androidx_media2 = { module = "androidx.media2:media2-session", version.ref = "androidx_media2" }
 androidx_multidex = { module = "androidx.multidex:multidex", version.ref = "androidx_multidex" }
 androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx_navigation" }
 androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx_navigation" }
@@ -176,6 +182,9 @@ junit5_android_test_runner = { module = "de.mannodermaus.junit5:android-test-run
 kluent_android = { module = "org.amshove.kluent:kluent-android", version.ref = "kluent" }
 kotlin_coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlin_coroutines" }
 kotlin_coroutines_android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlin_coroutines" }
+kotlin_coroutines_guava = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-guava", version.ref = "kotlin_coroutines_guava" }
+kotlin_coroutines_rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx2", version.ref = "kotlin_coroutines_rx2" }
+kotlin_coroutines_test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlin_coroutines_test" }
 kotlin_reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 kotlin_stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib-jdk7", version.ref = "kotlin" }
 kxml = { module = "net.sf.kxml:kxml2", version.ref = "kxml" }
@@ -246,6 +255,7 @@ rxandroid = { module = "io.reactivex:rxandroid", version.ref = "rxandroid" }
 rxandroid2 = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid2" }
 rxjava = { module = "io.reactivex:rxjava", version.ref = "rxjava" }
 rxjava2 = { module = "io.reactivex.rxjava2:rxjava", version.ref = "rxjava2" }
+rxjava2_interop = { module = "com.github.akarnokd:rxjava2-interop", version.ref = "rxjava2_interop" }
 rxjava2_extensions = { module = "com.github.akarnokd:rxjava2-extensions", version.ref = "rxjava2_extensions" }
 slf4j = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
 xmlpull = { module = "xmlpull:xmlpull", version.ref = "xmlpull" }
