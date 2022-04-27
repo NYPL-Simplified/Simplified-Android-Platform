@@ -19,10 +19,12 @@ androidx_lifecycle_java8 = "2.4.0"
 androidx_media2 = "1.2.1"
 androidx_multidex = "2.0.1"
 androidx_navigation = "2.3.5"
+androidx_navigation_testing = "2.3.5"
 androidx_paging = "3.1.0"
 androidx_preference = "1.1.1"
 androidx_recycler_view = "1.2.1"
 androidx_test_espresso_core = "3.5.0-alpha03" # Using alpha version to bypass this issue https://github.com/robolectric/robolectric/issues/6593#issuecomment-974858115
+androidx_test_espresso_intents = "3.5.0-alpha03"
 androidx_test_core_ktx = "1.4.0"
 androidx_test_ext_junit_ktx = "1.1.3"
 androidx_test_orchestrator = "1.4.1"
@@ -131,11 +133,13 @@ androidx_media2 = { module = "androidx.media2:media2-session", version.ref = "an
 androidx_multidex = { module = "androidx.multidex:multidex", version.ref = "androidx_multidex" }
 androidx_navigation_fragment = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidx_navigation" }
 androidx_navigation_ui = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidx_navigation" }
+androidx_navigation_testing = { module = "androidx.navigation:navigation-testing", version.ref = "androidx_navigation_testing" }
 androidx_paging = { module = "androidx.paging:paging-runtime-ktx", version.ref = "androidx_paging" }
 androidx_preference = { module = "androidx.preference:preference-ktx", version.ref = "androidx_preference" }
 androidx_recycler_view = { module = "androidx.recyclerview:recyclerview", version.ref = "androidx_recycler_view" }
 androidx_test_core_ktx = { module = "androidx.test:core-ktx", version.ref = "androidx_test_core_ktx"}
 androidx_test_espresso_core = { module = "androidx.test.espresso:espresso-core", version.ref = "androidx_test_espresso_core" }
+androidx_test_espresso_intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "androidx_test_espresso_intents" }
 androidx_test_ext_junit_ktx = { module = "androidx.test.ext:junit-ktx", version.ref = "androidx_test_ext_junit_ktx" }
 androidx_test_orchestrator = { module = "androidx.test:orchestrator", version.ref = "androidx_test_orchestrator" }
 androidx_test_rules = { module = "androidx.test:rules", version.ref = "androidx_test_rules" }
