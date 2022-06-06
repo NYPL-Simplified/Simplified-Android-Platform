@@ -34,6 +34,18 @@ androidx_view_pager2 = "1.0.0"
 androidx_webkit = "1.4.0"
 bouncycastle = "1.67"
 chucker = "3.2.0"
+compose_activity = "1.4.0"
+compose_ui = "1.1.1"
+compose_ui_tooling = "1.1.1"
+compose_ui_tooling_preview = "1.1.1"
+compose_foundation = "1.1.1"
+compose_material = "1.1.1"
+compose_material_icons_core = "1.1.1"
+compose_material_icons_extended = "1.1.1"
+compose_livedata = "1.1.1"
+compose_ui_test = "1.1.1"
+compose_navigation = "1.1.1"
+compose_ui_test_manifest = "1.1.1"
 findaway = "8.1.7"
 firebase_analytics = "18.0.0"
 firebase_crashlytics = "17.3.0"
@@ -150,6 +162,18 @@ bouncycastle = { module = "org.bouncycastle:bcpg-jdk15on", version.ref = "bouncy
 bouncycastle_PKI = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bouncycastle" }
 bouncycastle_TLS = { module = "org.bouncycastle:bctls-jdk15on", version.ref = "bouncycastle" }
 chucker = { module = "com.github.ChuckerTeam.Chucker:library", version.ref = "chucker" }
+compose_activity = { module = "androidx.activity:activity-compose", version.ref = "compose_activity" }
+compose_ui = { module = "androidx.compose.ui:ui", version.ref = "compose_ui" }
+compose_ui_tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose_ui_tooling" }
+compose_ui_tooling_preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose_ui_tooling_preview" }
+compose_foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose_foundation" }
+compose_material = { module = "androidx.compose.material:material", version.ref = "compose_material" }
+compose_material_icons_core = { module = "androidx.compose.material:material-icons-core", version.ref = "compose_material_icons_core" }
+compose_material_icons_extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose_material_icons_extended" }
+compose_livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "compose_livedata" }
+compose_ui_test = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "compose_ui_test" }
+compose_navigation = { module = "androidx.navigation:navigation-compose", version.ref = "compose_navigation" }
+compose_ui_test_manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "compose_ui_test_manifest" }
 findaway = { module = "io.audioengine.mobile:all-android", version.ref = "findaway" }
 firebase_analytics = { module = "com.google.firebase:firebase-analytics", version.ref = "firebase_analytics" }
 firebase_crashlytics = { module = "com.google.firebase:firebase-crashlytics", version.ref = "firebase_crashlytics" }
