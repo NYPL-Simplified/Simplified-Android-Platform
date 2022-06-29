@@ -89,6 +89,7 @@ mockwebserver = "4.9.0"
 moshi = "1.12.0"
 nano_httpd = "c3b149e04df161c85daeef02899128e727148b02"
 nano_httpd_nanolets = "c3b149e04df161c85daeef02899128e727148b02"
+new_relic = "6.5.0"
 nimbus_jose_jwt = "8.20"
 nypl_audiobook = "7.1.0"
 nypl_drm_adobe = "1.2.4"
@@ -228,6 +229,7 @@ moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 moshi_kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 nano_httpd = { module = "com.github.edrlab.nanohttpd:nanohttpd", version.ref = "nano_httpd" }
 nano_httpd_nanolets = { module = "com.github.edrlab.nanohttpd:nanohttpd-nanolets", version.ref = "nano_httpd_nanolets" }
+new_relic = { module = "com.newrelic.agent.android:android-agent", version.ref = "new_relic" }
 nimbus_jose_jwt = { module = "com.nimbusds:nimbus-jose-jwt", version.ref = "nimbus_jose_jwt" }
 nypl_audiobook_api = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.api", version.ref = "nypl_audiobook" }
 nypl_audiobook_downloads = { module = "org.librarysimplified.audiobook:org.librarysimplified.audiobook.downloads", version.ref = "nypl_audiobook" }
