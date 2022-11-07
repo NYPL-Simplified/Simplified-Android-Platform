@@ -112,6 +112,7 @@ picasso = "2.71828"
 quicktheories = "0.26"
 r2_opds = "2.1.1"
 r2_shared = "2.1.1"
+readium_version = "2.2.1"
 r2_streamer = "2.1.1"
 retrofit2 = "2.9.0"
 robolectric = "4.8.2"
@@ -275,9 +276,9 @@ osgi_bundle_version_annotation = { module = "org.osgi:org.osgi.annotation.versio
 pandora_bottom_navigator = { module = "com.github.qnga:BottomNavigator", version.ref = "pandora_bottom_navigator" }
 picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
 quicktheories = { module = "org.quicktheories:quicktheories", version.ref = "quicktheories" }
-r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version.ref = "r2_opds" }
-r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version.ref = "r2_shared" }
-r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version.ref = "r2_streamer" }
+r2_opds = { module = "com.github.readium.kotlin-toolkit:readium-opds", version.ref = "readium_version" }
+r2_shared = { module = "com.github.readium.kotlin-toolkit:readium-shared", version.ref = "readium_version" }
+r2_streamer = { module = "com.github.readium.kotlin-toolkit:readium-streamer", version.ref = "readium_version" }
 retrofit2 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit2" }
 retrofit2_moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit2" }
 robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
